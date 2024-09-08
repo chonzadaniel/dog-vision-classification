@@ -8,7 +8,7 @@ The data used for this project is from Kaggle's dog breed identification competi
 https://www.kaggle.com/c/dog-breed-identification/data
 
 * Evaluation:
-According to the kaggle.com competiton, evaluation is a file with prediction probabilities for each dog breed of each test image, which is a DataFrame indexed by the images ID's falling under each of the 120 class. Hence, the shape of the DataFrame is structure such that (image_ids (rows), dog classes (columns)).
+According to the kaggle.com competiton, evaluation is a file with prediction probabilities for each dog breed of each test image, which is a DataFrame indexed by the images ID's falling under each of the 120 class. Hence, the shape of the DataFrame is structure such that (10357, 120).
 https://kaggle.com/c/dog-breed-identification/evaluation
 
 * Dataset Features: 
