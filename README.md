@@ -5,7 +5,7 @@ This is a dog breeds identification machine learning problem, which has used the
 
 * Nature of Data:
 The data used for this project is from Kaggle's dog breed identification competition where there are 120 different classes (dog breeds) with more than 10,000 images in total. The training set has both images and labels while the test dataset has images only (no labels (dog unique breeds).
-https://www.kaggle.com/c/dog-breed-ifentification/data
+https://www.kaggle.com/c/dog-breed-identification/data
 
 * Evaluation:
 According to the kaggle.com competiton, evaluation is a file with prediction probabilities for each dog breed of each test image, which is a DataFrame indexed by the images ID's falling under each of the 120 class. Hence, the shape of the DataFrame is structure such that (image_ids (rows), dog classes (columns)).
